@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="Icon" filetype="image/png" href="../img/IconWeb.png">
+    <script src="../indexScript.js" type="module"></script>
+    <script src="../localStorage.js" type="module"></script>
+    <title>Raposas</title>
+</head>
+
+<body class="d-flex flex-column justify-content-center align-items-center">
+    <nav class="navbar d-flex justify-content-start" style="width: 100%; margin-bottom: 3vh;">
+        <img src="../img/IconWeb.png" alt="Icon" class="img-fluid" style="height: 6vh;">
+        <a href="#article"><button class="btn">Tema</button></a>
+        <a href="#cards"><button class="btn">Espécies</button></a>
+        <a href="#contact"><button class="btn">Contato</button></a>
+    </nav>
+
+    <article style="width: 90vw; margin-bottom: 6vh;" id="article">
+        <h1>Raposas</h1>
+        <p>De maneira geral, as raposas são mamíferos inteligentes e adaptáveis da família Canidae. Embora variem em
+            tamanho, coloração da pelagem e habitat, algumas semelhanças em seus hábitos e comportamentos são bastante
+            comuns.</p>
+
+        <p>Muitas espécies de raposas são predadoras oportunistas. Isso significa que sua dieta é bastante flexível,
+            adaptando-se ao que está disponível em seu ambiente. Pequenos mamíferos como roedores e coelhos são
+            frequentemente a base de sua alimentação, mas elas também podem consumir aves, ovos, insetos, frutas e até
+            mesmo restos de comida encontrados em áreas habitadas por humanos. Essa versatilidade alimentar contribui
+            para sua capacidade de sobreviver em uma ampla gama de ecossistemas.</p>
+
+        <p>A maioria das raposas exibe um comportamento solitário ou vive em pequenos grupos familiares, especialmente
+            durante a época de reprodução, quando um casal pode cuidar de seus filhotes. Elas são geralmente mais ativas
+            ao crepúsculo e à noite (hábitos crepusculares e noturnos), o que lhes permite evitar o calor do dia e, em
+            alguns casos, reduzir a competição com outros predadores diurnos.</p>
+
+        <p>A comunicação entre as raposas é complexa e envolve uma variedade de vocalizações, como latidos, uivos e
+            ganidos, além de sinais visuais e olfativos. O olfato é particularmente importante para a caça, para marcar
+            território com urina e fezes, e para a comunicação social.</p>
+
+        <p>As raposas também são conhecidas por sua agilidade e esperteza. São animais cautelosos e observadores,
+            capazes de se mover silenciosamente e de usar o ambiente a seu favor durante a caça. Sua capacidade de cavar
+            tocas, chamadas de covis, é outra característica comum, oferecendo abrigo seguro para descanso e para a
+            criação dos filhotes.</p>
+    </article>
+
+    <div class="d-flex flex-row justify-content-center gap-5" style="height: 50vh; width: 100%; margin-bottom: 4vh;"
+    id="cards">
+    <div class="card" style="width: 18rem;">
+        <img src="../" class="card-img-top img-thumbnail" id="cardImg1" alt="Raposa">
+        <div class="card-body">
+            <h5 class="card-title" id="cardTitle1"></h5>
+            <p class="card-text"></p>
+            <a href="../" class="btn btn-primary" id="cardLink1">Mais Sobre</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="../" class="card-img-top img-thumbnail" id="cardImg2" alt="Raposa">
+        <div class="card-body">
+            <h5 class="card-title" id="cardTitle2"></h5>
+            <p class="card-text"></p>
+            <a href="../" class="btn btn-primary" id="cardLink2">Mais Sobre</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="../" class="card-img-top img-thumbnail" id="cardImg3" alt="Raposa">
+        <div class="card-body">
+            <h5 class="card-title" id="cardTitle3"></h5>
+            <p class="card-text"></p>
+            <a href="../" class="btn btn-primary" id="cardLink3">Mais Sobre</a>
+        </div>
+    </div>
+</div>
+<div>
+    <button class="btn fs-3" id="btn1" style="background-image: url(../img/back.png); background-position: center; width: 4vw; height: 6vh; background-repeat: no-repeat;"></button>
+    <button class="btn fs-3" id="btn2" style="background-image: url(../img/foward.png); background-position: center; width: 4vw; height: 6vh; background-repeat: no-repeat;"></button>
+</div>
+
+    <hr style="width: 80%; margin-bottom: 4vh;">
+
+    <h2>Contato</h2>
+    <form action="" id="contact" class="d-flex flex-column justify-content-start align-items-center gap-2"
+        style="height: 35vh; width: 100%;">
+        <label for="nome" style="margin-right: 16vw;">Nome</label>
+        <input type="text" style="width: 20%;">
+
+        <label for="email" style="margin-right: 16vw;">Email</label>
+        <input type="email" name="email" id="" style="width: 20%;">
+
+        <input type="button" value="Enviar" class="btn" style="border: solid 0.2vh; width: 10vw;">
+    </form>
+
+    <footer>
+        © 2025 Rapovara. Todos os direitos reservados.
+    </footer>
+</body>
+
+</html>
