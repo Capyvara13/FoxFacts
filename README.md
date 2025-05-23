@@ -1,6 +1,6 @@
 # 🦊 FoxFacts 🦊
 
-Um aplicativo divertido para descobrir fatos interessantes sobre raposas!
+Um aplicativo divertido para descobrir fatos interessantes sobre raposas de diversas espécies!
 
 ### 📄 Descrição do Projeto
 
